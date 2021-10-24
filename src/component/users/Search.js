@@ -6,7 +6,6 @@ const Search = () => {
     const githubContext = useContext(GithubContext);
     const alertContext = useContext(AlertContext);
     const [text, setText] = useState('');
-    console.log(alertContext)
     const onSubmit =(e) =>{
         e.preventDefault();
         if(text === ''){
